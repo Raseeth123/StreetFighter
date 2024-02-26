@@ -202,7 +202,7 @@ document.addEventListener('keydown',function(e){
   }
   else if(e.key=='q'){
      fight.player1fastheal()
-     fight.check()
+    
   }
   else if(e.key=='r'){
      fight.player2fastpunchbeat()
