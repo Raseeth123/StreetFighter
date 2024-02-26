@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css3/fightinggame.css">
+    <title>Document</title>
+</head>
+<body>
+   <audio src="../prj2(landing page)/audio/fastheal.mp3" type="audio/mp3" id="fastheal"></audio>
+   <audio src="../prj2(landing page)/audio/fasthit.mp3" type="audio/mp3" id="fasthit"></audio>
+   <audio src="../prj2(landing page)/audio/quickheal.mp3" type="audio/mp3" id="quickheal"></audio>
+   <audio src="../prj2(landing page)/audio/victory.mp3" type="audio/mp3" id="victory"></audio>
+   <audio src="../prj2(landing page)/audio/fastpunch.mp3" type="audio/mp3" id="fastpunch"></audio>
+   <div class="cot">
+     <div class="cot1">
+        <p class="player">Player 1</p>
+        <img src="https://giffiles.alphacoders.com/131/13189.gif" class="player1">
+        <div class="cot11">
+            <span>P:</span><button class="attackbutn" id="attackp">Attack</button>
+            <span>Q:</span><button class="healbutn" id="healq">Heal</button>
+            <p class="score" id="player1scoreup">100</p>
+        </div>
+     </div>
+     <div class="cot2">
+       <p class="player">Player 2</p>
+        <img src="https://giffiles.alphacoders.com/132/13200.gif" class="player2">
+        <div class="cot11">
+         <span>R:</span><button class="attackbutn" id="attackr">Attack</button>
+         <span>S:</span><button class="healbutn" id="heals">Heal</button>
+         <p class="score" id="player2scoreup">100</p>
+     </div>
+     </div>
+   </div>
+   <p class="winner" id="winnerupdate"></p>
+   <div class="scorebutton">
+      <button class="restbutton" id="restbutton">Reset</button>
+   </div>
+   <script src="../js/fightinggame.js"></script>
+ </body>
+</html>

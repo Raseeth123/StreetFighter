@@ -1,0 +1,83 @@
+
+.cot{
+    width:500px;
+    height: 500px;
+    margin:150px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.player1,.player2{
+    width: 200px;
+    height: 200px;
+}
+
+.cot11{
+    padding: 10px;
+    width:150px;
+    height: 150px;
+}
+
+.attackbutn{
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+    background-color: Red;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.healbutn{
+    text-align: center;
+    margin-top: 30px;
+    padding:10px;
+    color: white;
+    border-radius: 10px;
+    background-color: Green;
+    font-weight: bold;
+    font-size: 16px;
+    width:70px;
+}
+
+
+
+.player{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.winner{
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.score{
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.restbutton{
+    text-align: center;
+    background-color: greenyellow;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.scorebutton{
+    display: flex;
+    justify-content: center;
+}
